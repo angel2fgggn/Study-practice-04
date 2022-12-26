@@ -34,6 +34,10 @@ namespace LandscapeDesign
                     if (f.GetType() != typeof(TerrainCreationWindow))
                         f.Hide();
             }
+            else if(textBoxNameMaket.Text  == ""){
+
+                labelNull.Visible = true;
+            }
             else 
             {
                 labelError.Visible = true;
