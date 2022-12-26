@@ -1,0 +1,59 @@
+C:\Users\angel\OneDrive\Рабочий стол\Курсовая\LandscapeDesign\LandscapeDesign\bin\Debug\LandscapeDesign.exe.config
+C:\Users\angel\OneDrive\Рабочий стол\Курсовая\LandscapeDesign\LandscapeDesign\bin\Debug\LandscapeDesign.exe
+C:\Users\angel\OneDrive\Рабочий стол\Курсовая\LandscapeDesign\LandscapeDesign\bin\Debug\LandscapeDesign.pdb
+C:\Users\angel\OneDrive\Рабочий стол\Курсовая\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.csproj.AssemblyReference.cache
+C:\Users\angel\OneDrive\Рабочий стол\Курсовая\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.csproj.SuggestedBindingRedirects.cache
+C:\Users\angel\OneDrive\Рабочий стол\Курсовая\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.Form1.resources
+C:\Users\angel\OneDrive\Рабочий стол\Курсовая\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.Properties.Resources.resources
+C:\Users\angel\OneDrive\Рабочий стол\Курсовая\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.csproj.GenerateResource.cache
+C:\Users\angel\OneDrive\Рабочий стол\Курсовая\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.csproj.CoreCompileInputs.cache
+C:\Users\angel\OneDrive\Рабочий стол\Курсовая\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.exe
+C:\Users\angel\OneDrive\Рабочий стол\Курсовая\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.pdb
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\bin\Debug\LandscapeDesign.exe.config
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\bin\Debug\LandscapeDesign.exe
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\bin\Debug\LandscapeDesign.pdb
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.csprojAssemblyReference.cache
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.Properties.Resources.resources
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.csproj.GenerateResource.cache
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.csproj.CoreCompileInputs.cache
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.exe
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.pdb
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.TerrainCreationWindow.resources
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.Screensaver.resources
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.LayoutCharacteristics.resources
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\bin\Debug\LandscapeDesign.exe.config
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\bin\Debug\LandscapeDesign.exe
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\bin\Debug\LandscapeDesign.pdb
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.csproj.AssemblyReference.cache
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.csproj.SuggestedBindingRedirects.cache
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.LayoutCharacteristics.resources
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.TerrainCreationWindow.resources
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.Properties.Resources.resources
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.Screensaver.resources
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.csproj.GenerateResource.cache
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.csproj.CoreCompileInputs.cache
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.exe
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.pdb
+E:\LandscapeDesign\LandscapeDesign\bin\Debug\LandscapeDesign.exe.config
+E:\LandscapeDesign\LandscapeDesign\bin\Debug\LandscapeDesign.exe
+E:\LandscapeDesign\LandscapeDesign\bin\Debug\LandscapeDesign.pdb
+E:\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.csprojAssemblyReference.cache
+E:\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.LayoutCharacteristics.resources
+E:\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.TerrainCreationWindow.resources
+E:\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.Properties.Resources.resources
+E:\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.Screensaver.resources
+E:\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.WelcomeWindow.resources
+E:\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.csproj.GenerateResource.cache
+E:\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.csproj.CoreCompileInputs.cache
+E:\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.exe
+E:\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.pdb
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.Authorization.resources
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.WelcomeWindowDesigner.resources
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.WelcomeWindowUser.resources
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.SeeBookingDesigner.resources
+C:\Users\stud\Desktop\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.Material.resources
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.Authorization.resources
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.Material.resources
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.SeeBookingDesigner.resources
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.WelcomeWindowDesigner.resources
+C:\Users\angel\OneDrive\Рабочий стол\LandscapeDesign\LandscapeDesign\obj\Debug\LandscapeDesign.WelcomeWindowUser.resources

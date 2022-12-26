@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{900DB27B-07B3-462B-9068-868FF56C92EF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LandscapeDesign</RootNamespace>
+    <AssemblyName>LandscapeDesign</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authorization.Designer.cs">
+      <DependentUpon>Authorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandscapeDesignDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LandscapeDesignDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LayoutCharacteristics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LayoutCharacteristics.Designer.cs">
+      <DependentUpon>LayoutCharacteristics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Material.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Material.Designer.cs">
+      <DependentUpon>Material.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SeeBookingDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeeBookingDesigner.Designer.cs">
+      <DependentUpon>SeeBookingDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerrainCreationWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerrainCreationWindow.Designer.cs">
+      <DependentUpon>TerrainCreationWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screensaver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screensaver.Designer.cs">
+      <DependentUpon>Screensaver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeWindowDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomeWindowDesigner.Designer.cs">
+      <DependentUpon>WelcomeWindowDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeWindowUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomeWindowUser.Designer.cs">
+      <DependentUpon>WelcomeWindowUser.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Authorization.resx">
+      <DependentUpon>Authorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LayoutCharacteristics.resx">
+      <DependentUpon>LayoutCharacteristics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Material.resx">
+      <DependentUpon>Material.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeeBookingDesigner.resx">
+      <DependentUpon>SeeBookingDesigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerrainCreationWindow.resx">
+      <DependentUpon>TerrainCreationWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screensaver.resx">
+      <DependentUpon>Screensaver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomeWindowDesigner.resx">
+      <DependentUpon>WelcomeWindowDesigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomeWindowUser.resx">
+      <DependentUpon>WelcomeWindowUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="LandscapeDesignDataSet.xsc">
+      <DependentUpon>LandscapeDesignDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LandscapeDesignDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LandscapeDesignDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LandscapeDesignDataSet.xss">
+      <DependentUpon>LandscapeDesignDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LANDDE_free-file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fon2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Клен.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Каштан.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Газон.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\КаменнаяБрусчатка.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
