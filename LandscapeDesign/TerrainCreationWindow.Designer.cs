@@ -110,6 +110,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.buttonDelete = new System.Windows.Forms.Button();
+            this.comboBoxElements = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKlen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKastan)).BeginInit();
@@ -141,19 +142,19 @@
             this.flowLayoutPanel1.Controls.Add(this.pictureBoxKastan);
             this.flowLayoutPanel1.Controls.Add(this.pictureBoxKamen);
             this.flowLayoutPanel1.Controls.Add(this.pictureBoxGazon);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(877, 43);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(658, 35);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(259, 609);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(194, 495);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // pictureBoxKlen
             // 
             this.pictureBoxKlen.Image = global::LandscapeDesign.Properties.Resources.Клен;
-            this.pictureBoxKlen.Location = new System.Drawing.Point(3, 2);
-            this.pictureBoxKlen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxKlen.Location = new System.Drawing.Point(2, 2);
+            this.pictureBoxKlen.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxKlen.Name = "pictureBoxKlen";
-            this.pictureBoxKlen.Size = new System.Drawing.Size(57, 55);
+            this.pictureBoxKlen.Size = new System.Drawing.Size(43, 45);
             this.pictureBoxKlen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxKlen.TabIndex = 2;
             this.pictureBoxKlen.TabStop = false;
@@ -162,10 +163,10 @@
             // pictureBoxKastan
             // 
             this.pictureBoxKastan.Image = global::LandscapeDesign.Properties.Resources.Каштан;
-            this.pictureBoxKastan.Location = new System.Drawing.Point(66, 2);
-            this.pictureBoxKastan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxKastan.Location = new System.Drawing.Point(49, 2);
+            this.pictureBoxKastan.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxKastan.Name = "pictureBoxKastan";
-            this.pictureBoxKastan.Size = new System.Drawing.Size(57, 55);
+            this.pictureBoxKastan.Size = new System.Drawing.Size(43, 45);
             this.pictureBoxKastan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxKastan.TabIndex = 3;
             this.pictureBoxKastan.TabStop = false;
@@ -174,10 +175,10 @@
             // pictureBoxKamen
             // 
             this.pictureBoxKamen.Image = global::LandscapeDesign.Properties.Resources.КаменнаяБрусчатка;
-            this.pictureBoxKamen.Location = new System.Drawing.Point(129, 2);
-            this.pictureBoxKamen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxKamen.Location = new System.Drawing.Point(96, 2);
+            this.pictureBoxKamen.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxKamen.Name = "pictureBoxKamen";
-            this.pictureBoxKamen.Size = new System.Drawing.Size(57, 55);
+            this.pictureBoxKamen.Size = new System.Drawing.Size(43, 45);
             this.pictureBoxKamen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxKamen.TabIndex = 4;
             this.pictureBoxKamen.TabStop = false;
@@ -185,10 +186,10 @@
             // pictureBoxGazon
             // 
             this.pictureBoxGazon.Image = global::LandscapeDesign.Properties.Resources.Газон;
-            this.pictureBoxGazon.Location = new System.Drawing.Point(192, 2);
-            this.pictureBoxGazon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxGazon.Location = new System.Drawing.Point(143, 2);
+            this.pictureBoxGazon.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxGazon.Name = "pictureBoxGazon";
-            this.pictureBoxGazon.Size = new System.Drawing.Size(57, 55);
+            this.pictureBoxGazon.Size = new System.Drawing.Size(43, 45);
             this.pictureBoxGazon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxGazon.TabIndex = 5;
             this.pictureBoxGazon.TabStop = false;
@@ -196,9 +197,10 @@
             // labelprice
             // 
             this.labelprice.AutoSize = true;
-            this.labelprice.Location = new System.Drawing.Point(1040, 710);
+            this.labelprice.Location = new System.Drawing.Point(780, 577);
+            this.labelprice.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelprice.Name = "labelprice";
-            this.labelprice.Size = new System.Drawing.Size(14, 16);
+            this.labelprice.Size = new System.Drawing.Size(13, 13);
             this.labelprice.TabIndex = 2;
             this.labelprice.Text = "0";
             // 
@@ -207,45 +209,49 @@
             this.panelMaket.AutoScroll = true;
             this.panelMaket.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panelMaket.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panelMaket.Location = new System.Drawing.Point(15, 43);
-            this.panelMaket.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelMaket.Location = new System.Drawing.Point(11, 35);
+            this.panelMaket.Margin = new System.Windows.Forms.Padding(2);
             this.panelMaket.Name = "panelMaket";
-            this.panelMaket.Size = new System.Drawing.Size(847, 609);
+            this.panelMaket.Size = new System.Drawing.Size(635, 495);
             this.panelMaket.TabIndex = 3;
             // 
             // labeltestprice
             // 
             this.labeltestprice.AutoSize = true;
-            this.labeltestprice.Location = new System.Drawing.Point(877, 710);
+            this.labeltestprice.Location = new System.Drawing.Point(658, 577);
+            this.labeltestprice.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labeltestprice.Name = "labeltestprice";
-            this.labeltestprice.Size = new System.Drawing.Size(157, 16);
+            this.labeltestprice.Size = new System.Drawing.Size(125, 13);
             this.labeltestprice.TabIndex = 4;
             this.labeltestprice.Text = "Итоговая цена макета:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(877, 661);
+            this.label1.Location = new System.Drawing.Point(658, 537);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 16);
+            this.label1.Size = new System.Drawing.Size(100, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "Название макета:";
             // 
             // labelTitle
             // 
             this.labelTitle.AutoSize = true;
-            this.labelTitle.Location = new System.Drawing.Point(1009, 661);
+            this.labelTitle.Location = new System.Drawing.Point(757, 537);
+            this.labelTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(43, 16);
+            this.labelTitle.Size = new System.Drawing.Size(35, 13);
             this.labelTitle.TabIndex = 5;
             this.labelTitle.Text = "текст";
             // 
             // labelHeight
             // 
             this.labelHeight.AutoSize = true;
-            this.labelHeight.Location = new System.Drawing.Point(1139, 554);
+            this.labelHeight.Location = new System.Drawing.Point(854, 450);
+            this.labelHeight.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelHeight.Name = "labelHeight";
-            this.labelHeight.Size = new System.Drawing.Size(47, 16);
+            this.labelHeight.Size = new System.Drawing.Size(37, 13);
             this.labelHeight.TabIndex = 7;
             this.labelHeight.Text = "длина";
             this.labelHeight.Visible = false;
@@ -253,9 +259,10 @@
             // labelWidht
             // 
             this.labelWidht.AutoSize = true;
-            this.labelWidht.Location = new System.Drawing.Point(1192, 554);
+            this.labelWidht.Location = new System.Drawing.Point(894, 450);
+            this.labelWidht.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelWidht.Name = "labelWidht";
-            this.labelWidht.Size = new System.Drawing.Size(56, 16);
+            this.labelWidht.Size = new System.Drawing.Size(45, 13);
             this.labelWidht.TabIndex = 8;
             this.labelWidht.Text = "ширина";
             this.labelWidht.Visible = false;
@@ -268,8 +275,8 @@
             this.выходToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1251, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1167, 24);
             this.menuStrip1.TabIndex = 16;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -278,7 +285,7 @@
             this.сохранениеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.сохранитьКакToolStripMenuItem});
             this.сохранениеToolStripMenuItem.Name = "сохранениеToolStripMenuItem";
-            this.сохранениеToolStripMenuItem.Size = new System.Drawing.Size(108, 24);
+            this.сохранениеToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.сохранениеToolStripMenuItem.Text = "Сохранение";
             // 
             // сохранитьКакToolStripMenuItem
@@ -287,20 +294,20 @@
             this.фотоToolStripMenuItem,
             this.данныеToolStripMenuItem});
             this.сохранитьКакToolStripMenuItem.Name = "сохранитьКакToolStripMenuItem";
-            this.сохранитьКакToolStripMenuItem.Size = new System.Drawing.Size(166, 26);
+            this.сохранитьКакToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.сохранитьКакToolStripMenuItem.Text = "Сохранить";
             // 
             // фотоToolStripMenuItem
             // 
             this.фотоToolStripMenuItem.Name = "фотоToolStripMenuItem";
-            this.фотоToolStripMenuItem.Size = new System.Drawing.Size(147, 26);
+            this.фотоToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.фотоToolStripMenuItem.Text = "Фото";
             this.фотоToolStripMenuItem.Click += new System.EventHandler(this.фотоToolStripMenuItem_Click);
             // 
             // данныеToolStripMenuItem
             // 
             this.данныеToolStripMenuItem.Name = "данныеToolStripMenuItem";
-            this.данныеToolStripMenuItem.Size = new System.Drawing.Size(147, 26);
+            this.данныеToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.данныеToolStripMenuItem.Text = "Данные";
             this.данныеToolStripMenuItem.Click += new System.EventHandler(this.данныеToolStripMenuItem_Click);
             // 
@@ -309,22 +316,23 @@
             this.выходToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.главноеМенюToolStripMenuItem});
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.выходToolStripMenuItem.Text = "Выход";
             // 
             // главноеМенюToolStripMenuItem
             // 
             this.главноеМенюToolStripMenuItem.Name = "главноеМенюToolStripMenuItem";
-            this.главноеМенюToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.главноеМенюToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.главноеМенюToolStripMenuItem.Text = "Главное меню";
             this.главноеМенюToolStripMenuItem.Click += new System.EventHandler(this.главноеМенюToolStripMenuItem_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(876, 684);
+            this.label3.Location = new System.Drawing.Point(657, 556);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 16);
+            this.label3.Size = new System.Drawing.Size(62, 13);
             this.label3.TabIndex = 18;
             this.label3.Text = "Заказ для:";
             // 
@@ -338,12 +346,12 @@
             this.idBookingDataGridViewTextBoxColumn,
             this.countMaterialDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.accountingMaterialBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(1144, 121);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(858, 98);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(10, 31);
+            this.dataGridView1.Size = new System.Drawing.Size(8, 25);
             this.dataGridView1.TabIndex = 19;
             // 
             // idAccountingMaterialDataGridViewTextBoxColumn
@@ -395,18 +403,20 @@
             // labelnameImage
             // 
             this.labelnameImage.AutoSize = true;
-            this.labelnameImage.Location = new System.Drawing.Point(1145, 14);
+            this.labelnameImage.Location = new System.Drawing.Point(859, 11);
+            this.labelnameImage.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelnameImage.Name = "labelnameImage";
-            this.labelnameImage.Size = new System.Drawing.Size(106, 16);
+            this.labelnameImage.Size = new System.Drawing.Size(85, 13);
             this.labelnameImage.TabIndex = 21;
             this.labelnameImage.Text = "имя материала";
             // 
             // labelIDMAt
             // 
             this.labelIDMAt.AutoSize = true;
-            this.labelIDMAt.Location = new System.Drawing.Point(1154, 64);
+            this.labelIDMAt.Location = new System.Drawing.Point(866, 52);
+            this.labelIDMAt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIDMAt.Name = "labelIDMAt";
-            this.labelIDMAt.Size = new System.Drawing.Size(93, 16);
+            this.labelIDMAt.Size = new System.Drawing.Size(73, 13);
             this.labelIDMAt.TabIndex = 22;
             this.labelIDMAt.Text = "id материала";
             // 
@@ -421,11 +431,12 @@
             this.sizeDataGridViewTextBoxColumn,
             this.folderPathDataGridViewTextBoxColumn});
             this.dataGridViewMater.DataSource = this.materialBindingSource;
-            this.dataGridViewMater.Location = new System.Drawing.Point(1142, 43);
+            this.dataGridViewMater.Location = new System.Drawing.Point(856, 35);
+            this.dataGridViewMater.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewMater.Name = "dataGridViewMater";
             this.dataGridViewMater.RowHeadersWidth = 51;
             this.dataGridViewMater.RowTemplate.Height = 24;
-            this.dataGridViewMater.Size = new System.Drawing.Size(10, 37);
+            this.dataGridViewMater.Size = new System.Drawing.Size(8, 30);
             this.dataGridViewMater.TabIndex = 23;
             // 
             // idMaterialDataGridViewTextBoxColumn1
@@ -480,9 +491,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(1154, 45);
+            this.label4.Location = new System.Drawing.Point(866, 37);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(97, 16);
+            this.label4.Size = new System.Drawing.Size(76, 13);
             this.label4.TabIndex = 25;
             this.label4.Text = "таб материал";
             // 
@@ -498,11 +510,12 @@
             this.photoOfTheLayoutDataGridViewTextBoxColumn,
             this.orderPriceDataGridViewTextBoxColumn});
             this.dataGridViewBooking.DataSource = this.bookingBindingSource;
-            this.dataGridViewBooking.Location = new System.Drawing.Point(1144, 157);
+            this.dataGridViewBooking.Location = new System.Drawing.Point(858, 128);
+            this.dataGridViewBooking.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewBooking.Name = "dataGridViewBooking";
             this.dataGridViewBooking.RowHeadersWidth = 51;
             this.dataGridViewBooking.RowTemplate.Height = 24;
-            this.dataGridViewBooking.Size = new System.Drawing.Size(10, 23);
+            this.dataGridViewBooking.Size = new System.Drawing.Size(8, 19);
             this.dataGridViewBooking.TabIndex = 26;
             // 
             // idBookingDataGridViewTextBoxColumn1
@@ -579,18 +592,20 @@
             // labelIDBooking
             // 
             this.labelIDBooking.AutoSize = true;
-            this.labelIDBooking.Location = new System.Drawing.Point(1164, 92);
+            this.labelIDBooking.Location = new System.Drawing.Point(873, 75);
+            this.labelIDBooking.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIDBooking.Name = "labelIDBooking";
-            this.labelIDBooking.Size = new System.Drawing.Size(68, 16);
+            this.labelIDBooking.Size = new System.Drawing.Size(54, 13);
             this.labelIDBooking.TabIndex = 27;
             this.labelIDBooking.Text = "id заказа";
             // 
             // labelnamec
             // 
             this.labelnamec.AutoSize = true;
-            this.labelnamec.Location = new System.Drawing.Point(958, 684);
+            this.labelnamec.Location = new System.Drawing.Point(718, 556);
+            this.labelnamec.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelnamec.Name = "labelnamec";
-            this.labelnamec.Size = new System.Drawing.Size(71, 16);
+            this.labelnamec.Size = new System.Drawing.Size(55, 13);
             this.labelnamec.TabIndex = 29;
             this.labelnamec.Text = "labelname";
             // 
@@ -607,12 +622,13 @@
             this.addresssDataGridViewTextBoxColumn,
             this.phoneNumberDataGridViewTextBoxColumn});
             this.dataGridViewCustomer.DataSource = this.informationCustomerBindingSource1;
-            this.dataGridViewCustomer.Location = new System.Drawing.Point(1144, 186);
+            this.dataGridViewCustomer.Location = new System.Drawing.Point(858, 151);
+            this.dataGridViewCustomer.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewCustomer.Name = "dataGridViewCustomer";
             this.dataGridViewCustomer.ReadOnly = true;
             this.dataGridViewCustomer.RowHeadersWidth = 51;
             this.dataGridViewCustomer.RowTemplate.Height = 24;
-            this.dataGridViewCustomer.Size = new System.Drawing.Size(10, 31);
+            this.dataGridViewCustomer.Size = new System.Drawing.Size(8, 25);
             this.dataGridViewCustomer.TabIndex = 30;
             // 
             // idInformationCustomerDataGridViewTextBoxColumn1
@@ -677,36 +693,40 @@
             // labelIDCustomer
             // 
             this.labelIDCustomer.AutoSize = true;
-            this.labelIDCustomer.Location = new System.Drawing.Point(1164, 108);
+            this.labelIDCustomer.Location = new System.Drawing.Point(873, 88);
+            this.labelIDCustomer.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIDCustomer.Name = "labelIDCustomer";
-            this.labelIDCustomer.Size = new System.Drawing.Size(91, 16);
+            this.labelIDCustomer.Size = new System.Drawing.Size(71, 13);
             this.labelIDCustomer.TabIndex = 31;
             this.labelIDCustomer.Text = "id заказчика";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(1154, 136);
+            this.label2.Location = new System.Drawing.Point(866, 110);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 16);
+            this.label2.Size = new System.Drawing.Size(70, 13);
             this.label2.TabIndex = 32;
             this.label2.Text = "таб учет мат";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1156, 164);
+            this.label5.Location = new System.Drawing.Point(867, 133);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(81, 16);
+            this.label5.Size = new System.Drawing.Size(65, 13);
             this.label5.TabIndex = 33;
             this.label5.Text = "таб заказы";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(1156, 201);
+            this.label6.Location = new System.Drawing.Point(867, 163);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 16);
+            this.label6.Size = new System.Drawing.Size(54, 13);
             this.label6.TabIndex = 34;
             this.label6.Text = "таб зак-и";
             // 
@@ -720,11 +740,12 @@
             this.idBookingDataGridViewTextBoxColumn2,
             this.countMaterialDataGridViewTextBoxColumn1});
             this.dataGridViewAccountingMaterial.DataSource = this.accountingMaterialBindingSource1;
-            this.dataGridViewAccountingMaterial.Location = new System.Drawing.Point(1142, 423);
+            this.dataGridViewAccountingMaterial.Location = new System.Drawing.Point(856, 344);
+            this.dataGridViewAccountingMaterial.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewAccountingMaterial.Name = "dataGridViewAccountingMaterial";
             this.dataGridViewAccountingMaterial.RowHeadersWidth = 51;
             this.dataGridViewAccountingMaterial.RowTemplate.Height = 24;
-            this.dataGridViewAccountingMaterial.Size = new System.Drawing.Size(10, 27);
+            this.dataGridViewAccountingMaterial.Size = new System.Drawing.Size(8, 22);
             this.dataGridViewAccountingMaterial.TabIndex = 35;
             // 
             // idAccountingMaterialDataGridViewTextBoxColumn1
@@ -774,11 +795,12 @@
             this.idBookingDataGridViewTextBoxColumn3,
             this.countServicesDataGridViewTextBoxColumn});
             this.dataGridViewAccountingServices.DataSource = this.accountingLandscapeServicesBindingSource;
-            this.dataGridViewAccountingServices.Location = new System.Drawing.Point(1142, 382);
+            this.dataGridViewAccountingServices.Location = new System.Drawing.Point(856, 310);
+            this.dataGridViewAccountingServices.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewAccountingServices.Name = "dataGridViewAccountingServices";
             this.dataGridViewAccountingServices.RowHeadersWidth = 51;
             this.dataGridViewAccountingServices.RowTemplate.Height = 24;
-            this.dataGridViewAccountingServices.Size = new System.Drawing.Size(10, 35);
+            this.dataGridViewAccountingServices.Size = new System.Drawing.Size(8, 28);
             this.dataGridViewAccountingServices.TabIndex = 36;
             // 
             // idAccountingLandscapeServicesDataGridViewTextBoxColumn
@@ -830,38 +852,50 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(1154, 401);
+            this.label7.Location = new System.Drawing.Point(866, 326);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(104, 16);
+            this.label7.Size = new System.Drawing.Size(82, 13);
             this.label7.TabIndex = 37;
             this.label7.Text = "добав сервиса";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(1158, 434);
+            this.label8.Location = new System.Drawing.Point(868, 353);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(94, 16);
+            this.label8.Size = new System.Drawing.Size(74, 13);
             this.label8.TabIndex = 38;
             this.label8.Text = "добав мат-ла";
             // 
             // buttonDelete
             // 
-            this.buttonDelete.Location = new System.Drawing.Point(15, 661);
+            this.buttonDelete.Location = new System.Drawing.Point(11, 537);
+            this.buttonDelete.Margin = new System.Windows.Forms.Padding(2);
             this.buttonDelete.Name = "buttonDelete";
-            this.buttonDelete.Size = new System.Drawing.Size(123, 23);
+            this.buttonDelete.Size = new System.Drawing.Size(150, 21);
             this.buttonDelete.TabIndex = 39;
-            this.buttonDelete.Text = "Удалить";
+            this.buttonDelete.Text = "Уменьшение размера";
             this.buttonDelete.UseVisualStyleBackColor = true;
-           
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
+            // 
+            // comboBoxElements
+            // 
+            this.comboBoxElements.FormattingEnabled = true;
+            this.comboBoxElements.Location = new System.Drawing.Point(1013, 61);
+            this.comboBoxElements.Name = "comboBoxElements";
+            this.comboBoxElements.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxElements.TabIndex = 40;
             // 
             // TerrainCreationWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1251, 745);
+            this.ClientSize = new System.Drawing.Size(1167, 605);
+            this.Controls.Add(this.comboBoxElements);
             this.Controls.Add(this.buttonDelete);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -892,7 +926,7 @@
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "TerrainCreationWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Landscape Design";
@@ -1006,6 +1040,7 @@
         public System.Windows.Forms.Label label7;
         public System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button buttonDelete;
+        private System.Windows.Forms.ComboBox comboBoxElements;
     }
 }
 
