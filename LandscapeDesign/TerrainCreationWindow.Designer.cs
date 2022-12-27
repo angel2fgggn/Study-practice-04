@@ -109,8 +109,9 @@
             this.bookingBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.buttonDelete = new System.Windows.Forms.Button();
+            this.buttonDecrease = new System.Windows.Forms.Button();
             this.comboBoxElements = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKlen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKastan)).BeginInit();
@@ -869,24 +870,34 @@
             this.label8.TabIndex = 38;
             this.label8.Text = "добав мат-ла";
             // 
-            // buttonDelete
+            // buttonDecrease
             // 
-            this.buttonDelete.Location = new System.Drawing.Point(11, 537);
-            this.buttonDelete.Margin = new System.Windows.Forms.Padding(2);
-            this.buttonDelete.Name = "buttonDelete";
-            this.buttonDelete.Size = new System.Drawing.Size(150, 21);
-            this.buttonDelete.TabIndex = 39;
-            this.buttonDelete.Text = "Уменьшение размера";
-            this.buttonDelete.UseVisualStyleBackColor = true;
-            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
+            this.buttonDecrease.Location = new System.Drawing.Point(11, 537);
+            this.buttonDecrease.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonDecrease.Name = "buttonDecrease";
+            this.buttonDecrease.Size = new System.Drawing.Size(150, 21);
+            this.buttonDecrease.TabIndex = 39;
+            this.buttonDecrease.Text = "Уменьшение размера";
+            this.buttonDecrease.UseVisualStyleBackColor = true;
+            this.buttonDecrease.Click += new System.EventHandler(this.buttonDecrease_Click);
             // 
             // comboBoxElements
             // 
             this.comboBoxElements.FormattingEnabled = true;
-            this.comboBoxElements.Location = new System.Drawing.Point(1013, 61);
+            this.comboBoxElements.Location = new System.Drawing.Point(166, 537);
             this.comboBoxElements.Name = "comboBoxElements";
             this.comboBoxElements.Size = new System.Drawing.Size(121, 21);
             this.comboBoxElements.TabIndex = 40;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(314, 545);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(45, 13);
+            this.label9.TabIndex = 41;
+            this.label9.Text = "ширина";
             // 
             // TerrainCreationWindow
             // 
@@ -895,8 +906,9 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1167, 605);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.comboBoxElements);
-            this.Controls.Add(this.buttonDelete);
+            this.Controls.Add(this.buttonDecrease);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dataGridViewAccountingServices);
@@ -1039,8 +1051,9 @@
         private System.Windows.Forms.BindingSource bookingBindingSource1;
         public System.Windows.Forms.Label label7;
         public System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button buttonDelete;
+        private System.Windows.Forms.Button buttonDecrease;
         private System.Windows.Forms.ComboBox comboBoxElements;
+        public System.Windows.Forms.Label label9;
     }
 }
 

@@ -339,9 +339,18 @@ namespace LandscapeDesign
             AddMAterialAndServices();
         }
 
-        private void buttonDelete_Click(object sender, EventArgs e)
+  
+        //Уменьшение размера
+        //!!ссылка на обьект не указывает на экземпляр класса
+        private void buttonDecrease_Click(object sender, EventArgs e)
         {
+            string name = comboBoxElements.Text;
 
+            label9.Text = comboBoxElements.Text;
+
+
+            this.Controls[name].Width -= 20;
+            this.Controls[name].Height -= 20;
         }
     }
 }
