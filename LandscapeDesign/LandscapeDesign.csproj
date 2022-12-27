@@ -186,5 +186,11 @@
   <ItemGroup>
     <None Include="Resources\КаменнаяБрусчатка.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Basic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\umbrella.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

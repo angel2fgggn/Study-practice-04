@@ -34,6 +34,18 @@
             this.pictureBoxKastan = new System.Windows.Forms.PictureBox();
             this.pictureBoxKamen = new System.Windows.Forms.PictureBox();
             this.pictureBoxGazon = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.labelprice = new System.Windows.Forms.Label();
             this.panelMaket = new System.Windows.Forms.Panel();
             this.labeltestprice = new System.Windows.Forms.Label();
@@ -117,6 +129,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKastan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKamen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGazon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountingMaterialBindingSource)).BeginInit();
@@ -143,6 +167,18 @@
             this.flowLayoutPanel1.Controls.Add(this.pictureBoxKastan);
             this.flowLayoutPanel1.Controls.Add(this.pictureBoxKamen);
             this.flowLayoutPanel1.Controls.Add(this.pictureBoxGazon);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox1);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox2);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox3);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox4);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox5);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox6);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox7);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox8);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox9);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox10);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox11);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox12);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(658, 35);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -194,6 +230,138 @@
             this.pictureBoxGazon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxGazon.TabIndex = 5;
             this.pictureBoxGazon.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::LandscapeDesign.Properties.Resources.Basic;
+            this.pictureBox1.Location = new System.Drawing.Point(2, 51);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(43, 45);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::LandscapeDesign.Properties.Resources.umbrella;
+            this.pictureBox2.Location = new System.Drawing.Point(49, 51);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(43, 45);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::LandscapeDesign.Properties.Resources.Газон;
+            this.pictureBox3.Location = new System.Drawing.Point(96, 51);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(43, 45);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 8;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::LandscapeDesign.Properties.Resources.Газон;
+            this.pictureBox4.Location = new System.Drawing.Point(143, 51);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(43, 45);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::LandscapeDesign.Properties.Resources.Газон;
+            this.pictureBox5.Location = new System.Drawing.Point(2, 100);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(43, 45);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 10;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::LandscapeDesign.Properties.Resources.Газон;
+            this.pictureBox6.Location = new System.Drawing.Point(49, 100);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(43, 45);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 11;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::LandscapeDesign.Properties.Resources.Газон;
+            this.pictureBox7.Location = new System.Drawing.Point(96, 100);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(43, 45);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 12;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::LandscapeDesign.Properties.Resources.Газон;
+            this.pictureBox8.Location = new System.Drawing.Point(143, 100);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(43, 45);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 13;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::LandscapeDesign.Properties.Resources.Газон;
+            this.pictureBox9.Location = new System.Drawing.Point(2, 149);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(43, 45);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 14;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::LandscapeDesign.Properties.Resources.Газон;
+            this.pictureBox10.Location = new System.Drawing.Point(49, 149);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(43, 45);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 15;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::LandscapeDesign.Properties.Resources.Газон;
+            this.pictureBox11.Location = new System.Drawing.Point(96, 149);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(43, 45);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 16;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::LandscapeDesign.Properties.Resources.Газон;
+            this.pictureBox12.Location = new System.Drawing.Point(143, 149);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(43, 45);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 17;
+            this.pictureBox12.TabStop = false;
             // 
             // labelprice
             // 
@@ -249,7 +417,7 @@
             // labelHeight
             // 
             this.labelHeight.AutoSize = true;
-            this.labelHeight.Location = new System.Drawing.Point(854, 450);
+            this.labelHeight.Location = new System.Drawing.Point(859, 503);
             this.labelHeight.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelHeight.Name = "labelHeight";
             this.labelHeight.Size = new System.Drawing.Size(37, 13);
@@ -260,7 +428,7 @@
             // labelWidht
             // 
             this.labelWidht.AutoSize = true;
-            this.labelWidht.Location = new System.Drawing.Point(894, 450);
+            this.labelWidht.Location = new System.Drawing.Point(899, 503);
             this.labelWidht.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelWidht.Name = "labelWidht";
             this.labelWidht.Size = new System.Drawing.Size(45, 13);
@@ -277,7 +445,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1167, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(962, 24);
             this.menuStrip1.TabIndex = 16;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -347,13 +515,14 @@
             this.idBookingDataGridViewTextBoxColumn,
             this.countMaterialDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.accountingMaterialBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(858, 98);
+            this.dataGridView1.Location = new System.Drawing.Point(863, 151);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(8, 25);
             this.dataGridView1.TabIndex = 19;
+            this.dataGridView1.Visible = false;
             // 
             // idAccountingMaterialDataGridViewTextBoxColumn
             // 
@@ -404,22 +573,24 @@
             // labelnameImage
             // 
             this.labelnameImage.AutoSize = true;
-            this.labelnameImage.Location = new System.Drawing.Point(859, 11);
+            this.labelnameImage.Location = new System.Drawing.Point(860, 58);
             this.labelnameImage.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelnameImage.Name = "labelnameImage";
             this.labelnameImage.Size = new System.Drawing.Size(85, 13);
             this.labelnameImage.TabIndex = 21;
             this.labelnameImage.Text = "имя материала";
+            this.labelnameImage.Visible = false;
             // 
             // labelIDMAt
             // 
             this.labelIDMAt.AutoSize = true;
-            this.labelIDMAt.Location = new System.Drawing.Point(866, 52);
+            this.labelIDMAt.Location = new System.Drawing.Point(871, 105);
             this.labelIDMAt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIDMAt.Name = "labelIDMAt";
             this.labelIDMAt.Size = new System.Drawing.Size(73, 13);
             this.labelIDMAt.TabIndex = 22;
             this.labelIDMAt.Text = "id материала";
+            this.labelIDMAt.Visible = false;
             // 
             // dataGridViewMater
             // 
@@ -432,13 +603,14 @@
             this.sizeDataGridViewTextBoxColumn,
             this.folderPathDataGridViewTextBoxColumn});
             this.dataGridViewMater.DataSource = this.materialBindingSource;
-            this.dataGridViewMater.Location = new System.Drawing.Point(856, 35);
+            this.dataGridViewMater.Location = new System.Drawing.Point(861, 88);
             this.dataGridViewMater.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewMater.Name = "dataGridViewMater";
             this.dataGridViewMater.RowHeadersWidth = 51;
             this.dataGridViewMater.RowTemplate.Height = 24;
             this.dataGridViewMater.Size = new System.Drawing.Size(8, 30);
             this.dataGridViewMater.TabIndex = 23;
+            this.dataGridViewMater.Visible = false;
             // 
             // idMaterialDataGridViewTextBoxColumn1
             // 
@@ -492,12 +664,13 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(866, 37);
+            this.label4.Location = new System.Drawing.Point(871, 90);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(76, 13);
             this.label4.TabIndex = 25;
             this.label4.Text = "таб материал";
+            this.label4.Visible = false;
             // 
             // dataGridViewBooking
             // 
@@ -511,13 +684,14 @@
             this.photoOfTheLayoutDataGridViewTextBoxColumn,
             this.orderPriceDataGridViewTextBoxColumn});
             this.dataGridViewBooking.DataSource = this.bookingBindingSource;
-            this.dataGridViewBooking.Location = new System.Drawing.Point(858, 128);
+            this.dataGridViewBooking.Location = new System.Drawing.Point(863, 181);
             this.dataGridViewBooking.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewBooking.Name = "dataGridViewBooking";
             this.dataGridViewBooking.RowHeadersWidth = 51;
             this.dataGridViewBooking.RowTemplate.Height = 24;
             this.dataGridViewBooking.Size = new System.Drawing.Size(8, 19);
             this.dataGridViewBooking.TabIndex = 26;
+            this.dataGridViewBooking.Visible = false;
             // 
             // idBookingDataGridViewTextBoxColumn1
             // 
@@ -593,12 +767,13 @@
             // labelIDBooking
             // 
             this.labelIDBooking.AutoSize = true;
-            this.labelIDBooking.Location = new System.Drawing.Point(873, 75);
+            this.labelIDBooking.Location = new System.Drawing.Point(878, 128);
             this.labelIDBooking.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIDBooking.Name = "labelIDBooking";
             this.labelIDBooking.Size = new System.Drawing.Size(54, 13);
             this.labelIDBooking.TabIndex = 27;
             this.labelIDBooking.Text = "id заказа";
+            this.labelIDBooking.Visible = false;
             // 
             // labelnamec
             // 
@@ -623,7 +798,7 @@
             this.addresssDataGridViewTextBoxColumn,
             this.phoneNumberDataGridViewTextBoxColumn});
             this.dataGridViewCustomer.DataSource = this.informationCustomerBindingSource1;
-            this.dataGridViewCustomer.Location = new System.Drawing.Point(858, 151);
+            this.dataGridViewCustomer.Location = new System.Drawing.Point(863, 204);
             this.dataGridViewCustomer.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewCustomer.Name = "dataGridViewCustomer";
             this.dataGridViewCustomer.ReadOnly = true;
@@ -631,6 +806,7 @@
             this.dataGridViewCustomer.RowTemplate.Height = 24;
             this.dataGridViewCustomer.Size = new System.Drawing.Size(8, 25);
             this.dataGridViewCustomer.TabIndex = 30;
+            this.dataGridViewCustomer.Visible = false;
             // 
             // idInformationCustomerDataGridViewTextBoxColumn1
             // 
@@ -694,42 +870,46 @@
             // labelIDCustomer
             // 
             this.labelIDCustomer.AutoSize = true;
-            this.labelIDCustomer.Location = new System.Drawing.Point(873, 88);
+            this.labelIDCustomer.Location = new System.Drawing.Point(878, 141);
             this.labelIDCustomer.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIDCustomer.Name = "labelIDCustomer";
             this.labelIDCustomer.Size = new System.Drawing.Size(71, 13);
             this.labelIDCustomer.TabIndex = 31;
             this.labelIDCustomer.Text = "id заказчика";
+            this.labelIDCustomer.Visible = false;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(866, 110);
+            this.label2.Location = new System.Drawing.Point(871, 163);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 13);
             this.label2.TabIndex = 32;
             this.label2.Text = "таб учет мат";
+            this.label2.Visible = false;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(867, 133);
+            this.label5.Location = new System.Drawing.Point(872, 186);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(65, 13);
             this.label5.TabIndex = 33;
             this.label5.Text = "таб заказы";
+            this.label5.Visible = false;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(867, 163);
+            this.label6.Location = new System.Drawing.Point(872, 216);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(54, 13);
             this.label6.TabIndex = 34;
             this.label6.Text = "таб зак-и";
+            this.label6.Visible = false;
             // 
             // dataGridViewAccountingMaterial
             // 
@@ -741,13 +921,14 @@
             this.idBookingDataGridViewTextBoxColumn2,
             this.countMaterialDataGridViewTextBoxColumn1});
             this.dataGridViewAccountingMaterial.DataSource = this.accountingMaterialBindingSource1;
-            this.dataGridViewAccountingMaterial.Location = new System.Drawing.Point(856, 344);
+            this.dataGridViewAccountingMaterial.Location = new System.Drawing.Point(861, 397);
             this.dataGridViewAccountingMaterial.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewAccountingMaterial.Name = "dataGridViewAccountingMaterial";
             this.dataGridViewAccountingMaterial.RowHeadersWidth = 51;
             this.dataGridViewAccountingMaterial.RowTemplate.Height = 24;
             this.dataGridViewAccountingMaterial.Size = new System.Drawing.Size(8, 22);
             this.dataGridViewAccountingMaterial.TabIndex = 35;
+            this.dataGridViewAccountingMaterial.Visible = false;
             // 
             // idAccountingMaterialDataGridViewTextBoxColumn1
             // 
@@ -796,13 +977,14 @@
             this.idBookingDataGridViewTextBoxColumn3,
             this.countServicesDataGridViewTextBoxColumn});
             this.dataGridViewAccountingServices.DataSource = this.accountingLandscapeServicesBindingSource;
-            this.dataGridViewAccountingServices.Location = new System.Drawing.Point(856, 310);
+            this.dataGridViewAccountingServices.Location = new System.Drawing.Point(861, 363);
             this.dataGridViewAccountingServices.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewAccountingServices.Name = "dataGridViewAccountingServices";
             this.dataGridViewAccountingServices.RowHeadersWidth = 51;
             this.dataGridViewAccountingServices.RowTemplate.Height = 24;
             this.dataGridViewAccountingServices.Size = new System.Drawing.Size(8, 28);
             this.dataGridViewAccountingServices.TabIndex = 36;
+            this.dataGridViewAccountingServices.Visible = false;
             // 
             // idAccountingLandscapeServicesDataGridViewTextBoxColumn
             // 
@@ -853,22 +1035,24 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(866, 326);
+            this.label7.Location = new System.Drawing.Point(871, 379);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(82, 13);
             this.label7.TabIndex = 37;
             this.label7.Text = "добав сервиса";
+            this.label7.Visible = false;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(868, 353);
+            this.label8.Location = new System.Drawing.Point(873, 406);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(74, 13);
             this.label8.TabIndex = 38;
             this.label8.Text = "добав мат-ла";
+            this.label8.Visible = false;
             // 
             // buttonDecrease
             // 
@@ -905,7 +1089,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1167, 605);
+            this.ClientSize = new System.Drawing.Size(962, 605);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.comboBoxElements);
             this.Controls.Add(this.buttonDecrease);
@@ -948,6 +1132,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKastan)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKamen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGazon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -1054,6 +1250,18 @@
         private System.Windows.Forms.Button buttonDecrease;
         private System.Windows.Forms.ComboBox comboBoxElements;
         public System.Windows.Forms.Label label9;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox12;
     }
 }
 
