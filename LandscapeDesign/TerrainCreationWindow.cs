@@ -349,7 +349,7 @@ namespace LandscapeDesign
             label9.Text = comboBoxElements.Text;
 
 
-            this.Controls[name].Size.Width -= 20;
+            this.Controls[name].Width -= 20;
             this.Controls[name].Height -= 20;
         }
     }
