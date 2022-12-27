@@ -21,6 +21,8 @@ namespace LandscapeDesign
         {
             InitializeComponent();
 
+            
+
             panelMaket.MouseMove += new MouseEventHandler(mouseEvent); //обработка перемещения курсора мыши
             panelMaket.MouseClick += new MouseEventHandler(mouseClick); //обработка клика мыши
 
@@ -41,7 +43,8 @@ namespace LandscapeDesign
         {
             if(currObject != null) //при нажатии, данный объект следует за курсором
             {
-                currObject.GetType().GetProperty("Location").SetValue(currObject, new Point(Cursor.Position.X-320, Cursor.Position.Y-120));
+                currObject.GetType().GetProperty("Location").SetValue(currObject, new Point(Cursor.Position.X, Cursor.Position.Y)); //320 и 120
+                
             }
         }
 
@@ -242,6 +245,8 @@ namespace LandscapeDesign
             
             //вынос из таблицы данные о id материала
             labelIDBooking.Text = Convert.ToString(dataGridViewBooking.Rows[0].Cells[0].EditedFormattedValue);
+
+            
         }
 
         
@@ -249,11 +254,16 @@ namespace LandscapeDesign
 
         int PRICE = 0; //цена макета
         
+        
+        List<string> listElements = new List<string>();
+            
+
+
         //создание картинки на панели редактирования
         private void pictureBoxKlen_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             PictureBox newPB = new PictureBox();
-            newPB.Name = "newnPB" + numPBKlen;
+            newPB.Name = "newnPBKlen" + numPBKlen;
             newPB.Size = new Size(25, 25);
             newPB.Image = LandscapeDesign.Properties.Resources.Клен;
             newPB.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -264,14 +274,18 @@ namespace LandscapeDesign
             PRICE += 1000;
             labelprice.Text = PRICE.ToString();
             labelnameImage.Text = "Клен";
+           
             SearchTable();
+
+
+            comboBoxElements.Items.Add(newPB.Name);
         }
 
         int numPBKastan = 0;//кол-во каштан
         private void pictureBoxKastan_Click(object sender, EventArgs e)
         {
             PictureBox newPB = new PictureBox();
-            newPB.Name = "newnPB" + numPBKastan;
+            newPB.Name = "newnPBKastan" + numPBKastan;
             newPB.Size = new Size(25, 25);
             newPB.Image = LandscapeDesign.Properties.Resources.Каштан;
             newPB.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -282,9 +296,10 @@ namespace LandscapeDesign
             PRICE += 500;
             labelprice.Text = PRICE.ToString();
             labelnameImage.Text = "Каштан";
-
-
+  
             SearchTable();
+
+            comboBoxElements.Items.Add(newPB.Name);
         }
 
       
@@ -325,6 +340,17 @@ namespace LandscapeDesign
         }
 
   
+        //Уменьшение размера
+        //!!ссылка на обьект не указывает на экземпляр класса
+        private void buttonDecrease_Click(object sender, EventArgs e)
+        {
+            string name = comboBoxElements.Text;
 
+            label9.Text = comboBoxElements.Text;
+
+
+            this.Controls[name].Width -= 20;
+            this.Controls[name].Height -= 20;
+        }
     }
 }

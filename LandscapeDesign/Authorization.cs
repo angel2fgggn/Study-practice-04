@@ -49,7 +49,7 @@ namespace LandscapeDesign
            
             SqlDataReader Username;
             SqlDataReader Password;
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-S5DJ35C\\SQLEXPRESS;Initial Catalog=LandscapeDesign;Integrated Security=True");
+            SqlConnection conn = new SqlConnection("Data Source=it224-8;Initial Catalog=LandscapeDesign;Integrated Security=True");
             conn.Open();
 
             SqlDataAdapter adapter = new SqlDataAdapter();
